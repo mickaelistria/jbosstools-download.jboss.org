@@ -27,7 +27,7 @@
 		<property name="workDir" value="${destination}/${version}"/>
 
 		<p2.mirror>
-			<repository location="file:${workDir}" name="Atlassian Connectors ${version}" />
+			<repository location="file:${workDir}" name="Jetty ${version}" />
 			<source>
 				<repository location="${URL1}" />
 			</source>
@@ -44,6 +44,7 @@
 			<iu id="org.eclipse.jetty.websocket"/>
 			<iu id="org.eclipse.jetty.servlets"/>
 			<iu id="org.eclipse.jetty.client"/>
+			<iu id="org.eclipse.jetty.rewrite"/>
 
 		</p2.mirror>
 
