@@ -20,7 +20,7 @@
   </target>
   <target name="mirror">
     <p2.mirror>
-      <repository location="file:${workDir}" name="${LONGNAME} ${version}" />
+      <repository location="file:${workDir}" name="${LONGNAME} ${version}" format="${URL}"/>
       <source>
         <repository location="${URL}" />
       </source>
